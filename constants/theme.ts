@@ -9,15 +9,20 @@ const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const Colors = {
-  darkGray:'#2D2D2D',
-  lightGray:'#9b9b9b',
-  orange:'#FF9527',
+  darkGray: '#2D2D2D',
+  lightGray: '#9b9b9b',
+  orange: '#FF9527',
 
-  textPrimary:'white',
-  textSecondary:'#666666',
-  background: '#000000'
+  success: '#22c55e',
+  danger: '#ef4444',
+
+  textPrimary: '#ffffff',
+  textSecondary: '#666666',
+
+  white: '#ffffff',
+
+  background: '#000000',
 } as const;
-
 export const Fonts = Platform.select({
   ios: {
     /** iOS `UIFontDescriptorSystemDesignDefault` */
