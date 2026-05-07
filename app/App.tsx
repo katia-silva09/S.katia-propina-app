@@ -49,15 +49,15 @@ export default function App() {
           </Text>
 
           <Text style={globalStyles.mainResult}>
-            ${amount}
+            C${amount}
           </Text>
 
           <Text style={globalStyles.subResult}>
-            Propina: ${tipAmount.toFixed(2)}
+            Propina:  C${tipAmount.toFixed(2)}
           </Text>
 
           <Text style={globalStyles.totalPerPerson}>
-            ${totalPerPerson.toFixed(2)}
+            C${totalPerPerson.toFixed(2)}
             {'\n'}
             por persona
           </Text>
