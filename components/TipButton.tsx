@@ -1,3 +1,4 @@
+
 import { globalStyles } from '../styles/global.styles';
 import { Pressable, Text } from 'react-native';
 
